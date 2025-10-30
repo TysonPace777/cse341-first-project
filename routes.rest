@@ -1,0 +1,2 @@
+// all contacts test
+GET https://cse341-first-project.onrender.com/contacts
