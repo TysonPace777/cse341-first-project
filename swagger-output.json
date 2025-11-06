@@ -8,7 +8,7 @@
   "host": "cse341-first-project.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
@@ -31,7 +31,7 @@
         }
       }
     },
-    "/contacts/": {
+    "/contacts": {
       "get": {
         "description": "",
         "produces": [
