@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const mongodb = require('./data/database');
 const bodyParser = require('body-parser');
 
@@ -10,6 +11,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/', require('./routes'));
 
