@@ -5,7 +5,8 @@
     "eslint": "^9.39.0",
     "express": "^5.1.0",
     "mongodb": "^6.20.0",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "validatorjs": "^3.22.1"
   },
   "devDependencies": {
     "swagger-autogen": "^2.23.7"

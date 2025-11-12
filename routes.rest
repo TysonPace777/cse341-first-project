@@ -5,15 +5,18 @@ GET https://cse341-first-project.onrender.com/contacts
 ### local all contacts
 GET http://localhost:8080/contacts
 
+### local single contact
+GET http://localhost:8080/contacts/6903a663d8e906fb838b6f37
+
 ### create contact
 POST http://localhost:8080/contacts
 content-type: application/json
 
 {
-    "firstName":"deleteme",
-    "lastName":"test",
-    "email":"tpace@fake352.com",
-    "favoriteColor":"yellow",
+    "firstName":"error",
+    "lastName":"handletest",
+    "email":"tpace@test352.com",
+    "favoriteColor":"red",
     "birthday":"5/20/2002"
 }
 
@@ -30,4 +33,4 @@ Content-Type: application/json
 }
 
 ### delete contact
-DELETE http://localhost:8080/contacts/690cf51965351603d72fafca
+DELETE http://localhost:8080/contacts/6914fcce73cb983e304ada39
